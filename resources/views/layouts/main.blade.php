@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang = "pt-br">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset = "utf-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE-edge">
+    <meta name = "viewport" content = "width-device-width, initial-scale-1.0">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}" >
+    <link rel = "stylesheet" href="{{ asset('/css/bootstrap.min.css') }}">
+    <link rel = "stylesheet" href="/css/style.css">
     
+    <!-- Google Fonts / Mudar aqui quando mudar a fonte do site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+
     <title>DS e TI</title>
 
   </head>
   <body>
 
-    <nav class="navbar navbar-dark bg-primary">
-      <div class="collapse navbar-collapse">
-        <div class="navbar-nav navbar-dark bg-primary">
-          <a class="nav-item nav-link active" href="/">  Home </a>
-          <a class="nav-item nav-link" href="/paginas/curso">  Curso</a>
-          <a class="nav-item nav-link" href="/paginas/ementa">  Ementa</a>
-          <a class="nav-item nav-link disabled" href="/paginas/galeria">  Galeria</a>
-        </div> <!-- Navbar-nav -->
-      </div> <!-- Collapse -->
-    </nav> <!-- Navbar -->
+    <nav>
+      <div class = "container nav_container">
+        <a href = "main.blade.php">ETEC</a>
+          <ul class = "nav_menu">
+            <li><a href = "/">                 Home    </a></li>
+            <li><a href = "/paginas/curso">    Curso   </a></li>
+            <li><a href = "/paginas/ementa">   Ementa  </a></li>
+            <li><a href = "/paginas/galeria">  Galeria </a></li>
+          </ul>
+      </div> 
+    </nav>
 
     @yield('container')
 
     <!-- Bootstrap Bundle with Popper -->
-    <script src="{{ asset('/js/popper.min.js') }}"></script>
-    <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
+    <script src = "{{ asset('/js/popper.min.js') }}"></script>
+    <script src = "{{ asset('/js/bootstrap.min.js') }}"></script>
+    <script src = "{{ asset('/js/bootstrap.bundle.min.js') }}"></script>
+   
    
   </body>
 </html>
