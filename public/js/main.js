@@ -12,3 +12,45 @@ window.addEventListener('scroll', () => {
     ('window-scroll',window.scrollY > 0)
 
 })
+
+
+// mostra/esconde a resposta para perguntas frequentes
+
+const perguntas_freq = document.querySelectorAll('.pergunta_freq');
+
+perguntas_freq.forEach(pergunta_freq => {
+    pergunta_freq.addEventListener('click', () => {
+        pergunta_freq.classList.toggle('open');
+
+        // mudar o ícone(de + para - e - para +)
+        const icon = pergunta_freq.querySelector('.pergunta_icon i');
+        if(icon.className === 'uil uil-plus-circle'){
+            icon.className = "uil uil-minus-circle"
+        } else{
+            icon.className = "uil uil-plus-circle"
+        }
+    })
+})
+
+
+// mostra/esconde o menu de navegação
+const menu = document.querySelector(".nav_menu")
+const menuBtn = document.querySelector("#open-menu-btn")
+const closeBtn = document.querySelector("#close-menu-btn")
+
+menuBtn.addEventListener('click', () => {
+    menu.style.display = "flex";
+    closeBtn.style.display = "inline-block";
+    menuBtn.style.display = "none";
+})
+
+
+// fecha o nav menu
+const closeNav = () => {
+    menu.style.display = "none";
+    closeBtn.style.display = "none";
+    menuBtn.style.display = "inline-block"
+}
+
+closeBtn.addEventListener('click', closeNav)
+
