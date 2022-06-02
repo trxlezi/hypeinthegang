@@ -8,7 +8,7 @@
     <div class="container cabecalho_container">
         <div class="cabecalho_esquerdo">
             <h1>Desenvolvimento de Sistemas</h1>
-            <p>O curso é...</p>
+            <p></p>
 
         </div>
         <div class="cabecalho_direito">
@@ -30,7 +30,9 @@
         <div class="categorias_esquerda">
             <h1>Área de Atuação</h1>
             <p>
-                Desenvolvimento de Sistemas
+                O técnico em Desenvolvimento de Sistemas é o profissional que analisa e projeta sistemas.<br> 
+            Constrói, documenta, realiza testes e mantém sistemas de informação.<br> Utiliza ambientes de 
+            desenvolvimento e linguagens de programação específica.<br> Modela, implementa e mantém bancos de dados.
             </p>
 
         </div>
@@ -41,7 +43,7 @@
                     <i class="uil uil-database"></i>
                 </span>
                 <h5> Banco de Dados </h5>
-                <p> Se aprende a administrar Banco de Dados </p>
+                <p> Coleta, organiza, analisa e transmite o conhecimento gerado a partir de dados obtidos por diversas fontes. </p>
             </article>
 
             <article class="categoria">
@@ -49,7 +51,7 @@
                     <i class="uil uil-cloud-wifi"></i>
                 </span>
                 <h5> Redes </h5>
-                <p> Se aprende protocolos etc. </p>
+                <p> É responsável por implantar e monitorar a rede de computadores</p>
             </article>
 
             <article class="categoria">
@@ -57,7 +59,8 @@
                     <i class="uil uil-bitcoin-circle"></i>
                 </span>
                 <h5> Negócios </h5>
-                <p> Levantamento de Requisitos, Reuniões, Briefings </p>
+                <p> Planeja e gerencia a implementação de projetos de sistemas de informação, envolvendo a compreensão do negócio do cliente, 
+                    mapeamento de suas necessidades, especificação da solução e análise de tendências tecnológicas para identificar a melhor oportunidade. </p>
             </article>
 
             <article class="categoria">
@@ -65,7 +68,8 @@
                     <i class="uil uil-desktop"></i>
                 </span>
                 <h5> Infraestrutura de TI </h5>
-                <p> Responsável por implementar soluções computacionais  </p>
+                <p> Garante que toda a infraestrutura de redes, banco de dados, servidores, 
+                    hardwares e softwares de uma organização esteja funcionando da melhor forma.  </p>
             </article>
 
         </div>

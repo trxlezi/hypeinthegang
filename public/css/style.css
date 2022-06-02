@@ -2,6 +2,7 @@
 /* :root define váriaveis dentro do CSS */
 :root{
     --color-primary: #291888;
+    --color-bd: #3396a3;
     --color-success: #00bf8e;
     --color-warning: #f7c94b;
     --color-danger: #f75842;
@@ -22,6 +23,7 @@
     --transition: all 400ms ease;
 
 }
+
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -175,8 +177,12 @@ header {
     align-items: center;
     gap: 4rem;
     height: 100%;
-
+    /*  
+    background-image: url('/public/img/fundo_bonito.svg');
+    background-repeat: no-repeat;
+    */
 }
+
 
 .cabecalho_esquerdo p{
     margin: 1rem 0 2.4rem;
@@ -189,7 +195,7 @@ header {
     background: var(--color-bg1);
     height: 34rem;
     padding: 4rem;
-    
+    margin-bottom: 11rem;
 
 }
 
@@ -233,7 +239,7 @@ header {
 
 /* -------------> Icones da ÁREA DE ATUAÇÃO  <-------------   */
  .categoria_icon{
-    background: var(--color-primary); /*  Banco de Dados  */
+    background: var(--color-bd); /*  Banco de Dados  */
     padding: 0.7rem;
     border-radius: 0.9rem;
     
