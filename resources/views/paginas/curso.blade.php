@@ -1,19 +1,53 @@
+
+
 @extends('./layouts/main')
 
 @section('container')
-{{-- Mudar o nome das classes  --}}
-<section class="categorias">
-    <div class="container categorias_container">
 
-        <div class="categorias_esquerda">
-            <img src = "https://i.pinimg.com/736x/7e/fd/b9/7efdb9a91e301381f2d8f6ec83201f94.jpg" id="imagem_curso">
-          
+<section class="sobre_curso">
+    <div class="container sobre_container">
+
+        <div class="explicacao">
+            <h1>Laboratórios</h1>
+        <p>
+            Temos 6 laboratórios de informática.
+            
+        </p>
         </div>
 
-        <div class="categorias_direita">
-        <h1>Sobre o curso... etc</h1>
-        </div>
-</section>
-    
+        <div class="explicacao">
+            <h1>Equipamentos Tecnológicos</h1>
+        <p>
+            Em cada laboratório temos 40 computadores disponíveis, todos com mouse e teclado.
+           
 
+        </p>
+        </div>
+
+        
+    </div>           
+        <div class="turmas">
+            <h1>Divisão de Turmas</h1>
+                <p>
+                    Os alunos são divididos em duas turmas...
+           
+                </p>
+        </div>
+
+    <div class="informacoes">
+        <div class="container informacoes_adicionais">
+            <h1> Informações Adicionais - Ensino Técnico Integrado ao Médio (ETIM) </h1> 
+                <p>
+                    Duração: 3 anos<br>
+                    Vagas: 40<br>
+                    Coordenador: Prof. Elaine Cristina de Almeida<br>
+                </p>
+                <div class = "periodo">
+
+              </div>
+        </div>
+    </div>        
+</section> 
 @endsection
+
+

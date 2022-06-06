@@ -468,6 +468,72 @@ header {
 
 /* -------------> Fim da EMENTA CSS <-------------  */
 
+/* -------------> Sobre o Curso - CSS <-------------  */
+
+.sobre_curso {
+    background: var(--color-bg1);
+
+}
+
+.sobre_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    margin-top: 1.7rem;
+
+}
+
+.explicacao h1 {
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+.explicacao > p {
+    margin: 1.6rem 0 2.5rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+
+}
+
+.turmas{
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.turmas h1{
+    font-size: 3rem;
+
+}
+
+.turmas p{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+
+.informacoes{
+    margin-top: 2rem;
+    text-align: center;
+    border-top: 1px solid var(--color-white);
+    border-bottom: 1px solid var(--color-white);
+    
+}
+
+.informacoes_adicionais{
+  margin-top: 2rem;
+
+}
+
+.informacoes_adicionais p{
+    text-align: left;
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+
+
 
 /* -------------> Consulta de Mídias para Tablets <-------------  */
 
