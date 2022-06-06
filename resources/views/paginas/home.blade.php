@@ -13,7 +13,7 @@
         </div>
         <div class="cabecalho_direito">
             <div class="cabecalho_direito-image">
-                <img src="">
+                <img src="./img/pc_bonito_roxo.png" id="pcbonito">
             </div>
 
         </div>

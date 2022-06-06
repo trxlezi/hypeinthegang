@@ -2,10 +2,10 @@
 /* :root define váriaveis dentro do CSS */
 :root{
     --color-primary: #291888;
-    --color-bd: #3396a3;
+    --color-bd: #e22c2c;
     --color-success: #00bf8e;
     --color-warning: #f7c94b;
-    --color-danger: #f75842;
+    --color-danger: #4049bb;
     --color-danger-variant: rgba(247, 88, 66, 0.4);
 
     --color-white: #fff;
@@ -177,15 +177,33 @@ header {
     align-items: center;
     gap: 4rem;
     height: 100%;
-    /*  
-    background-image: url('/public/img/fundo_bonito.svg');
-    background-repeat: no-repeat;
-    */
+    
+    
 }
 
+.cabecalho_direito{
+    width: 450px;
+
+
+}
+
+#pcbonito{
+
+    margin-left: 90px;
+    position:relative;
+    width: 150%;
+    height: 150%;
+
+}
 
 .cabecalho_esquerdo p{
     margin: 1rem 0 2.4rem;
+
+}
+
+.cabecalho_esquerdo h1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
 
 }
 
