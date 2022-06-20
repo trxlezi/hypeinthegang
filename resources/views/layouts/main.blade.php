@@ -72,20 +72,21 @@
   <div class="rodape_4">
               <h4>Contate-nos</h4>
     <div>
-              <p>+Número da ETEC</p>
-              <p>emailetec@gmai.com.br</p>
+              <p>(19) 3808-1016</p>
+              <p>e067acad@cps.sp.gov.br</p>
+              <p>e067adm@cps.sp.gov.br</p>
               <p>Redes Sociais</p>
     </div>
 
       <ul class="rodape_socials">
           <li>
-              <a href="#"><i class="uil uil-instagram-alt"></i></a>
+              <a href="https://www.instagram.com/etecjboficial/" target="_blank"><i class="uil uil-instagram-alt"></i></a>
           </li>
           <li>
-              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="https://www.facebook.com/etecjoaobelarminooficial/" target="_blank"><i class="uil uil-facebook-f"></i></a>
           </li>
           <li>
-              <a href="#"><i class="uil uil-twitter-alt"></i></a>
+              <a href="https://twitter.com/etecjb" target="_blank"><i class="uil uil-twitter-alt"></i></a>
           </li>
     </div>
 
