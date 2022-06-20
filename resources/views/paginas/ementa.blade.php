@@ -9,7 +9,7 @@
         </p>
 
     <div class="container botão_container">
-            <a href = ""><button id = "botao_ementa" class = "rounded">Desenvolvimento de Sistemas
+            <a href = "/ementa/Desenvolvimento_de_Sistemas_-_612_MTec-PI_1a_Serie_versao_provisoria.pdf" target="_blank"><button id = "botao_ementa" class = "rounded">Desenvolvimento de Sistemas
         </button></a>
 
     </div>

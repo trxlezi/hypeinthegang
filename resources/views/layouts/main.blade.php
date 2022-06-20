@@ -47,7 +47,7 @@
       <div class="rodape_1">
       <a href="/" class="rodape_logo"><h4>Icone</h4></a>
       <p>
-        Não sei se vai ser sobre o site da escola isso aqui mas deixa assim
+       
       </p>
   </div>
 
@@ -62,7 +62,7 @@
   </div>
 
   <div class="rodape_3">
-                  <h4>Primacy</h4>
+                  <h4>Privacidade</h4>
       <ul class="privacy">
           <li><a href="#">Políticas de Privacidade</a></li>
           <li><a href="#">Termos e Condições de Uso</a></li>

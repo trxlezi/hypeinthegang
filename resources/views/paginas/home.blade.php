@@ -85,11 +85,10 @@
         <article class="pergunta_freq">
             <div class="pergunta_icon"> <i class="uil uil-plus-circle"></i> </div>
             <div class="pergunta_resposta">
-                <h4>Como funciona o curso?</h4>
+                <h4>Qual é o hórario?</h4>
                 <p>
-                    Lorem ipsum dolor sit amet. Et voluptatum possimus eum odit quidem non commodi sint non corporis temporibus ut quia facilis!
-                    Qui omnis totam eos perspiciatis architecto et sint dolorum qui suscipit voluptas!
-                    Non voluptate nemo et corporis nisi et ipsam rerum eos voluptas dolor nam minus dolores et sunt velit qui enim quaerat.
+                    O horário escolar se inicia as 7:00 da manhã e termina as 14:40, esse período é dividido em 8 aulas, cada aula possui 50 minutos, e com direito a dois intervalos,
+                    um das 9:30 até às 9:50, sendo esse o café da manhã, e outro das 12:20 até às 13:00, que é o almoço.
                 </p>
             </div>
         </article>
@@ -99,9 +98,9 @@
             <div class="pergunta_resposta">
                 <h4>Como funciona o curso?</h4>
                 <p>
-                    Lorem ipsum dolor sit amet. Et voluptatum possimus eum odit quidem non commodi sint non corporis temporibus ut quia facilis!
-                    Qui omnis totam eos perspiciatis architecto et sint dolorum qui suscipit voluptas!
-                    Non voluptate nemo et corporis nisi et ipsam rerum eos voluptas dolor nam minus dolores et sunt velit qui enim quaerat.
+                    Não é necessário nenhum tipo de conhecimento, visto que desde o começo do curso eles introduzem os alunos com o básico, e com o tempo
+                    se avança em contúdos complexos. Além disso, o curso é integrado ao ensino médio, então não haverá apenas aulas do curso no hórario escolar,
+                    mas também aulas normais.
                 </p>
             </div>
         </article>
